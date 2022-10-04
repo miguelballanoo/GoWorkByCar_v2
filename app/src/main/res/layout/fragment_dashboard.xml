@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="52dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:src="@tools:sample/avatars"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="47dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="21dp"
+            android:layout_height="47dp" />
+
+        <Button
+            android:id="@+id/btnMisViajesReservados"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="178dp"
+            android:layout_height="match_parent"
+            android:text="Mis viajes reservados"
+            android:textColor="@color/black"
+            app:strokeColor="@color/black" />
+
+        <Space
+            android:layout_width="21dp"
+            android:layout_height="47dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnMisViajesCreados"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+            android:text="Mis viajes creados"
+            android:textColor="@color/black"
+            app:strokeColor="@color/black" />
+
+    </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnMdfDatos"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Editar datos personales"
+            android:textColor="@color/black"
+            app:strokeColor="@color/black" />
+
+        <Button
+            android:id="@+id/btnCerrarSesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?attr/materialButtonOutlinedStyle"
+            android:textColor="@color/black"
+            app:strokeColor="@color/black"
+            android:text="Cerrar sesion" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

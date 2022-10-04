@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "484825708300",
+    "project_id": "goworkbycar",
+    "storage_bucket": "goworkbycar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484825708300:android:5321fb10d83c1a5eb0fb29",
+        "android_client_info": {
+          "package_name": "com.mballano.goworkbycar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484825708300-subca8a6g94c1ct640c3e7be4befdbd3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mballano.goworkbycar",
+            "certificate_hash": "47308b0544b440d12d9ad37c9975a30208615ab5"
+          }
+        },
+        {
+          "client_id": "484825708300-r16vrmihc7tagdn1jkj5vg07j1kij5o2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAouu3qeftPZgi-PU8dCkYIBEJCj6QEzhA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484825708300-r16vrmihc7tagdn1jkj5vg07j1kij5o2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
